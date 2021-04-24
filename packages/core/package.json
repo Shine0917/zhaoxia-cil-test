@@ -18,7 +18,7 @@
     "test": "echo \"Error: run tests from root\" "
   },
   "dependencies": {
-    "@zhaoxia-cli-test/utils": "^0.0.0"
+    "@zhaoxia-cli-test/utils": "^1.0.1"
   },
   "gitHead": "6a7ee73268378c7fa5c5bddb9ba40864b1fcb542"
 }

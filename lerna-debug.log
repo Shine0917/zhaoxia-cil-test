@@ -1,13 +1,10 @@
-0 silly argv { _: [ 'link' ], lernaVersion: '4.0.0', '$0': 'lerna' }
-1 notice cli v4.0.0
-2 verbose rootPath /Users/xzx/code/MyCode/zhaoxia-cli-test
-3 error Error: Invalid package name "@zhaoxia-cli-test": name can only contain URL-friendly characters
-3 error     at invalidPackageName (/usr/local/lib/node_modules/lerna/node_modules/npm-package-arg/npa.js:89:15)
-3 error     at Result.setName (/usr/local/lib/node_modules/lerna/node_modules/npm-package-arg/npa.js:124:11)
-3 error     at new Result (/usr/local/lib/node_modules/lerna/node_modules/npm-package-arg/npa.js:114:23)
-3 error     at Function.resolve (/usr/local/lib/node_modules/lerna/node_modules/npm-package-arg/npa.js:61:15)
-3 error     at /usr/local/lib/node_modules/lerna/node_modules/@lerna/package-graph/index.js:66:30
-3 error     at Array.forEach (<anonymous>)
-3 error     at /usr/local/lib/node_modules/lerna/node_modules/@lerna/package-graph/index.js:60:38
-3 error     at Map.forEach (<anonymous>)
-3 error     at new PackageGraph (/usr/local/lib/node_modules/lerna/node_modules/@lerna/package-graph/index.js:49:10)
+15 error Error: Command failed with exit code 1: git remote update
+15 error fatal: unable to access 'https://github.com/XiaoZhaoxiaaa/zhaoxia-cil-test.git/': LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
+15 error error: Could not fetch origin
+15 error Fetching origin
+15 error     at makeError (/usr/local/lib/node_modules/lerna/node_modules/execa/lib/error.js:59:11)
+15 error     at Function.module.exports.sync (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:186:17)
+15 error     at Object.execSync (/usr/local/lib/node_modules/lerna/node_modules/@lerna/child-process/index.js:39:16)
+15 error     at updateRemote (/usr/local/lib/node_modules/lerna/node_modules/@lerna/version/lib/is-behind-upstream.js:34:16)
+15 error     at isBehindUpstream (/usr/local/lib/node_modules/lerna/node_modules/@lerna/version/lib/is-behind-upstream.js:16:3)
+15 error     at VersionCommand.initialize (/usr/local/lib/node_modules/lerna/node_modules/@lerna/version/index.js:153:9)
