@@ -1,0 +1,23 @@
+{
+  "name": "@zhaoxia-cli-test/core",
+  "version": "1.0.0",
+  "description": "zhaoxia-cli-test/core",
+  "author": "zx.xiao <xzxfirst@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": ["lib"],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" "
+  },
+  "dependencies": {
+    "@zhaoxia-cli-test/utils": "^0.0.0"
+  }
+}
