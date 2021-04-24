@@ -1,6 +1,6 @@
 {
   "name": "@zhaoxia-cli-test/core",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "zhaoxia-cli-test/core",
   "author": "zx.xiao <xzxfirst@163.com>",
   "homepage": "",
@@ -20,7 +20,7 @@
     "test": "echo \"Error: run tests from root\" "
   },
   "dependencies": {
-    "@zhaoxia-cli-test/utils": "^1.0.2"
+    "@zhaoxia-cli-test/utils": "^1.0.3"
   },
   "gitHead": "8dbdeaa1127ef46814b2815138c8779b2de3d84e"
 }
