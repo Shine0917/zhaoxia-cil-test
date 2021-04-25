@@ -1,7 +1,8 @@
-'use strict';
+'use strict'
 
-module.exports = core;
+module.exports = core
 
-function core() {
-    // TODO
+function core () {
+  // TODO
+  console.log('object :>> ')
 }
